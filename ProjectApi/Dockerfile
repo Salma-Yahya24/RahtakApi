@@ -1,21 +1,24 @@
-# استخدمي صورة الدوت نت 9.0 من مايكروسوفت
+# استخدام .NET 9.0 SDK كـ base image
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+
 WORKDIR /app
 
-# نسخ ملفات المشروع واستعادة الـ dependencies
-COPY . ./
+# نسخ كل الملفات للمسار داخل الـ container
+COPY . .
+
+# استعادة الـ dependencies
 RUN dotnet restore
 
-# بناء التطبيق
-RUN dotnet publish -c Release -o /out
+# بناء الـ Application
+RUN dotnet publish -c Release -o out
 
-# إنشاء صورة الـ runtime باستخدام .NET 9.0
+# استخدام .NET Runtime لتشغيل الـ Application
 FROM mcr.microsoft.com/dotnet/aspnet:9.0
+
 WORKDIR /app
-COPY --from=build /out .
+COPY --from=build /app/out .
 
-# تعيين البورت الذي سيعمل عليه التطبيق
 EXPOSE 80
+EXPOSE 443
 
-# الأمر الذي سيُنفّذ عند تشغيل الحاوية
 ENTRYPOINT ["dotnet", "ProjectApi.Client.dll"]
