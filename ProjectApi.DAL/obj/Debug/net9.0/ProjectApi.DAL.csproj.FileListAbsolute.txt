@@ -1,0 +1,15 @@
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\bin\Debug\net9.0\ProjectApi.DAL.deps.json
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\bin\Debug\net9.0\ProjectApi.DAL.dll
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\bin\Debug\net9.0\ProjectApi.DAL.pdb
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\bin\Debug\net9.0\ProjectApi.Entities.dll
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\bin\Debug\net9.0\ProjectApi.Entities.pdb
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\obj\Debug\net9.0\ProjectApi.DAL.csproj.AssemblyReference.cache
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\obj\Debug\net9.0\ProjectApi.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\obj\Debug\net9.0\ProjectApi.DAL.AssemblyInfoInputs.cache
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\obj\Debug\net9.0\ProjectApi.DAL.AssemblyInfo.cs
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\obj\Debug\net9.0\ProjectApi.DAL.csproj.CoreCompileInputs.cache
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\obj\Debug\net9.0\ProjectA.B2430C62.Up2Date
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\obj\Debug\net9.0\ProjectApi.DAL.dll
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\obj\Debug\net9.0\refint\ProjectApi.DAL.dll
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\obj\Debug\net9.0\ProjectApi.DAL.pdb
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.DAL\obj\Debug\net9.0\ref\ProjectApi.DAL.dll

@@ -1,0 +1,971 @@
+[
+  {
+    "ContainingType": "ProjectApi.Controllers.AddressesUnitOfWorkController",
+    "Method": "GetAddresses",
+    "RelativePath": "api/AddressesUnitOfWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.AddressesUnitOfWorkController",
+    "Method": "CreateAddress",
+    "RelativePath": "api/AddressesUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "address",
+        "Type": "ProjectApi.Entities.Models.Address",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.AddressesUnitOfWorkController",
+    "Method": "GetAddress",
+    "RelativePath": "api/AddressesUnitOfWork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.AddressesUnitOfWorkController",
+    "Method": "UpdateAddress",
+    "RelativePath": "api/AddressesUnitOfWork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "address",
+        "Type": "ProjectApi.Entities.Models.Address",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.AddressesUnitOfWorkController",
+    "Method": "DeleteAddress",
+    "RelativePath": "api/AddressesUnitOfWork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingDetailsUnitOfWorkController",
+    "Method": "GetBookingDetails",
+    "RelativePath": "api/BookingDetailsUnitOfWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingDetailsUnitOfWorkController",
+    "Method": "CreateBookingDetail",
+    "RelativePath": "api/BookingDetailsUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingDetail",
+        "Type": "ProjectApi.Entities.Models.BookingDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingDetailsUnitOfWorkController",
+    "Method": "GetBookingDetail",
+    "RelativePath": "api/BookingDetailsUnitOfWork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingDetailsUnitOfWorkController",
+    "Method": "UpdateBookingDetail",
+    "RelativePath": "api/BookingDetailsUnitOfWork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "bookingDetail",
+        "Type": "ProjectApi.Entities.Models.BookingDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingDetailsUnitOfWorkController",
+    "Method": "DeleteBookingDetail",
+    "RelativePath": "api/BookingDetailsUnitOfWork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingStatusesUnitOfWorkController",
+    "Method": "GetBookingStatuses",
+    "RelativePath": "api/BookingStatusesUnitOfWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingStatusesUnitOfWorkController",
+    "Method": "CreateBookingStatus",
+    "RelativePath": "api/BookingStatusesUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingStatus",
+        "Type": "ProjectApi.Entities.Models.BookingStatus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingStatusesUnitOfWorkController",
+    "Method": "GetBookingStatus",
+    "RelativePath": "api/BookingStatusesUnitOfWork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingStatusesUnitOfWorkController",
+    "Method": "UpdateBookingStatus",
+    "RelativePath": "api/BookingStatusesUnitOfWork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "bookingStatus",
+        "Type": "ProjectApi.Entities.Models.BookingStatus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingStatusesUnitOfWorkController",
+    "Method": "DeleteBookingStatus",
+    "RelativePath": "api/BookingStatusesUnitOfWork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingsUnitOfWorkController",
+    "Method": "GetBookings",
+    "RelativePath": "api/BookingsUnitOfWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingsUnitOfWorkController",
+    "Method": "CreateBooking",
+    "RelativePath": "api/BookingsUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "booking",
+        "Type": "ProjectApi.Entities.Models.Booking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingsUnitOfWorkController",
+    "Method": "GetBooking",
+    "RelativePath": "api/BookingsUnitOfWork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingsUnitOfWorkController",
+    "Method": "UpdateBooking",
+    "RelativePath": "api/BookingsUnitOfWork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "booking",
+        "Type": "ProjectApi.Entities.Models.Booking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.BookingsUnitOfWorkController",
+    "Method": "DeleteBooking",
+    "RelativePath": "api/BookingsUnitOfWork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.PaymentMethodsUnitOfWorkController",
+    "Method": "GetPaymentMethods",
+    "RelativePath": "api/PaymentMethodsUnitOfWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.PaymentMethodsUnitOfWorkController",
+    "Method": "CreatePaymentMethod",
+    "RelativePath": "api/PaymentMethodsUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentMethod",
+        "Type": "ProjectApi.Entities.Models.PaymentMethod",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.PaymentMethodsUnitOfWorkController",
+    "Method": "GetPaymentMethod",
+    "RelativePath": "api/PaymentMethodsUnitOfWork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.PaymentMethodsUnitOfWorkController",
+    "Method": "UpdatePaymentMethod",
+    "RelativePath": "api/PaymentMethodsUnitOfWork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "paymentMethod",
+        "Type": "ProjectApi.Entities.Models.PaymentMethod",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.PaymentMethodsUnitOfWorkController",
+    "Method": "DeletePaymentMethod",
+    "RelativePath": "api/PaymentMethodsUnitOfWork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.PaymentsUnitOfWorkController",
+    "Method": "GetPayments",
+    "RelativePath": "api/PaymentsUnitOfWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.PaymentsUnitOfWorkController",
+    "Method": "CreatePayment",
+    "RelativePath": "api/PaymentsUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payment",
+        "Type": "ProjectApi.Entities.Models.Payments",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.PaymentsUnitOfWorkController",
+    "Method": "GetPayment",
+    "RelativePath": "api/PaymentsUnitOfWork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.PaymentsUnitOfWorkController",
+    "Method": "UpdatePayment",
+    "RelativePath": "api/PaymentsUnitOfWork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "payment",
+        "Type": "ProjectApi.Entities.Models.Payments",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.PaymentsUnitOfWorkController",
+    "Method": "DeletePayment",
+    "RelativePath": "api/PaymentsUnitOfWork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ReviewsUnitOfWorkController",
+    "Method": "GetReviews",
+    "RelativePath": "api/ReviewsUnitOfWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ReviewsUnitOfWorkController",
+    "Method": "CreateReview",
+    "RelativePath": "api/ReviewsUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "review",
+        "Type": "ProjectApi.Entities.Models.Reviews",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ReviewsUnitOfWorkController",
+    "Method": "GetReview",
+    "RelativePath": "api/ReviewsUnitOfWork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ReviewsUnitOfWorkController",
+    "Method": "UpdateReview",
+    "RelativePath": "api/ReviewsUnitOfWork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "review",
+        "Type": "ProjectApi.Entities.Models.Reviews",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ReviewsUnitOfWorkController",
+    "Method": "DeleteReview",
+    "RelativePath": "api/ReviewsUnitOfWork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceGroupsUnitOfWorkController",
+    "Method": "GetServiceGroups",
+    "RelativePath": "api/ServiceGroupsUnitOfWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceGroupsUnitOfWorkController",
+    "Method": "CreateServiceGroup",
+    "RelativePath": "api/ServiceGroupsUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceGroup",
+        "Type": "ProjectApi.Entities.Models.ServiceGroups",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceGroupsUnitOfWorkController",
+    "Method": "GetServiceGroup",
+    "RelativePath": "api/ServiceGroupsUnitOfWork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceGroupsUnitOfWorkController",
+    "Method": "UpdateServiceGroup",
+    "RelativePath": "api/ServiceGroupsUnitOfWork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "serviceGroup",
+        "Type": "ProjectApi.Entities.Models.ServiceGroups",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceGroupsUnitOfWorkController",
+    "Method": "DeleteServiceGroup",
+    "RelativePath": "api/ServiceGroupsUnitOfWork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceProvidersUnitOfWorkController",
+    "Method": "GetServiceProviders",
+    "RelativePath": "api/ServiceProvidersUnitOfWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceProvidersUnitOfWorkController",
+    "Method": "CreateServiceProvider",
+    "RelativePath": "api/ServiceProvidersUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceProvider",
+        "Type": "ProjectApi.Entities.Models.ServiceProviders",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceProvidersUnitOfWorkController",
+    "Method": "GetServiceProvider",
+    "RelativePath": "api/ServiceProvidersUnitOfWork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceProvidersUnitOfWorkController",
+    "Method": "UpdateServiceProvider",
+    "RelativePath": "api/ServiceProvidersUnitOfWork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "serviceProvider",
+        "Type": "ProjectApi.Entities.Models.ServiceProviders",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceProvidersUnitOfWorkController",
+    "Method": "DeleteServiceProvider",
+    "RelativePath": "api/ServiceProvidersUnitOfWork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceProviderTypesUnitOfWorkController",
+    "Method": "GetServiceProviderTypes",
+    "RelativePath": "api/ServiceProviderTypesUnitOfWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceProviderTypesUnitOfWorkController",
+    "Method": "CreateServiceProviderType",
+    "RelativePath": "api/ServiceProviderTypesUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceProviderType",
+        "Type": "ProjectApi.Entities.Models.ServiceProviderType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceProviderTypesUnitOfWorkController",
+    "Method": "GetServiceProviderType",
+    "RelativePath": "api/ServiceProviderTypesUnitOfWork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceProviderTypesUnitOfWorkController",
+    "Method": "UpdateServiceProviderType",
+    "RelativePath": "api/ServiceProviderTypesUnitOfWork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "serviceProviderType",
+        "Type": "ProjectApi.Entities.Models.ServiceProviderType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.ServiceProviderTypesUnitOfWorkController",
+    "Method": "DeleteServiceProviderType",
+    "RelativePath": "api/ServiceProviderTypesUnitOfWork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.SubServicesUnitOfWorkController",
+    "Method": "GetSubServices",
+    "RelativePath": "api/SubServicesUnitOfWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.SubServicesUnitOfWorkController",
+    "Method": "CreateSubService",
+    "RelativePath": "api/SubServicesUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subService",
+        "Type": "ProjectApi.Entities.Models.SubService",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.SubServicesUnitOfWorkController",
+    "Method": "GetSubService",
+    "RelativePath": "api/SubServicesUnitOfWork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.SubServicesUnitOfWorkController",
+    "Method": "UpdateSubService",
+    "RelativePath": "api/SubServicesUnitOfWork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "subService",
+        "Type": "ProjectApi.Entities.Models.SubService",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.SubServicesUnitOfWorkController",
+    "Method": "DeleteSubService",
+    "RelativePath": "api/SubServicesUnitOfWork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.UsersUnitofworkController",
+    "Method": "GetUsers",
+    "RelativePath": "api/UsersUnitofwork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.UsersUnitofworkController",
+    "Method": "CreateUser",
+    "RelativePath": "api/UsersUnitofwork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ProjectApi.Entities.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.UsersUnitofworkController",
+    "Method": "GetUser",
+    "RelativePath": "api/UsersUnitofwork/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.UsersUnitofworkController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/UsersUnitofwork/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "ProjectApi.Entities.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.UsersUnitofworkController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/UsersUnitofwork/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ProjectApi.WeatherForecast, ProjectApi.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

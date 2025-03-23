@@ -1,0 +1,11 @@
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.Entities\bin\Debug\net9.0\ProjectApi.Entities.deps.json
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.Entities\bin\Debug\net9.0\ProjectApi.Entities.dll
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.Entities\bin\Debug\net9.0\ProjectApi.Entities.pdb
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.Entities\obj\Debug\net9.0\ProjectApi.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.Entities\obj\Debug\net9.0\ProjectApi.Entities.AssemblyInfoInputs.cache
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.Entities\obj\Debug\net9.0\ProjectApi.Entities.AssemblyInfo.cs
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.Entities\obj\Debug\net9.0\ProjectApi.Entities.csproj.CoreCompileInputs.cache
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.Entities\obj\Debug\net9.0\ProjectApi.Entities.dll
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.Entities\obj\Debug\net9.0\refint\ProjectApi.Entities.dll
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.Entities\obj\Debug\net9.0\ProjectApi.Entities.pdb
+E:\Courses\Rwad\Project\ProjectApi\ProjectApi.Entities\obj\Debug\net9.0\ref\ProjectApi.Entities.dll
